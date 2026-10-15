@@ -1,0 +1,10 @@
+name: early-warning-signals
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy>=1.6        
+  - matplotlib
+  - ipywidgets        # sliders in live_demo.py
+  - jupyterlab        # live_demo.py needs Jupyter to display the interactive sliders
